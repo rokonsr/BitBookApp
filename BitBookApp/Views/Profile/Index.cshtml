@@ -1,0 +1,188 @@
+﻿@using BitBookApp.Models
+@model BitBookApp.Models.UserProfile
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutBb.cshtml";
+    List<Education> educations = ViewBag.Education;
+    List<Experience> experiences = ViewBag.Experience;
+    List<ProfileImage> coverImages = ViewBag.CoverPicture;
+    List<ProfileImage> profileImages = ViewBag.ProfilePicture;
+
+    int coverPictureMaxId = 0;
+    int profilePictureMaxId = 0;
+
+    if (coverImages.Count > 0)
+    {
+        coverPictureMaxId = coverImages.Max(x => x.ProfileImageId);
+    }
+    if (profileImages.Count > 0)
+    {
+        profilePictureMaxId = profileImages.Max(x => x.ProfileImageId);
+    }
+}
+
+<style>
+    table tr td {
+        padding: 10px;
+    }
+</style>
+
+
+
+<table>
+    <tr>
+        <td colspan="2">
+            @foreach (var item in coverImages)
+            {
+                if (item.ProfileImageId == coverPictureMaxId)
+                {
+                    <a href="@Url.Action("Create", "ProfileImage")">
+                        <img src="data:image;base64,@System.Convert.ToBase64String(item.UserImage)" width="100%" height="200" style="border-radius: 5px;"/>
+                    </a>
+                }
+            }
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            @Html.ActionLink("Add/Update profile/cover picture", "Create", "ProfileImage")
+        </td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">
+            @foreach (var item in profileImages)
+            {
+                if (item.ProfileImageId == profilePictureMaxId)
+                {
+                    <a href="@Url.Action("Create", "ProfileImage")">
+                        <img src="data:image;base64,@System.Convert.ToBase64String(item.UserImage)" width="200" height="200" style="border-radius: 5px;" />
+                    </a>
+                }
+
+            }
+        </td>
+        <td>
+            @if (Model != null && Session["UserId"] != null)
+            {
+                <table class="table table-hover" style="width: 500px;">
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = Model.ProfileId })
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.Name)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.Gender)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Contact)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.Contact)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.City)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.City)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Country)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.Country)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.AreaOfInterest)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => Model.AreaOfInterest)
+                        </td>
+                    </tr>
+
+                </table>
+            }
+            else
+            {
+                @Html.ActionLink("Add Profile Information", "Create", "Profile")
+                <br />
+            }
+
+            @* Adding Educational Quanlification *@
+            @Html.ActionLink("Add Education", "Create", "Education") <br />
+
+            @if (Session["UserId"] != null && educations.Count > 0)
+            {
+                <table class="table table-hover" style="width: 600px;">
+                    <tr>
+                        <td>Title</td>
+                        <td>Institute</td>
+                        <td>Passing Year</td>
+                        <td>Action</td>
+                    </tr>
+
+                    @foreach (var item in educations)
+                    {
+                        <tr>
+                            <td>@item.EducationTitle</td>
+                            <td>@item.Institute</td>
+                            <td>@item.PassingYear</td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", "Education", new { id = item.EducationId }, null) |
+                                @Html.ActionLink("Delete", "Delete", "Education", new { id = item.EducationId }, null)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+
+
+            @* Adding Experience *@@Html.ActionLink("Add Experience", "Create", "Experience") <br />
+
+            @if (Session["UserId"] != null && experiences.Count > 0)
+            {
+                <table class="table table-hover" style="width: 600px;">
+                    <tr>
+                        <td>Designation</td>
+                        <td>Company</td>
+                        <td>Year of Exp.</td>
+                        <td>Action</td>
+                    </tr>
+                    @foreach (var item in experiences)
+                    {
+                        <tr>
+                            <td>@item.ExpDesignation</td>
+                            <td>@item.ExpCompany</td>
+                            <td>@item.ExpYear</td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", "Experience", new { id = item.ExperienceId }, null) |
+                                @Html.ActionLink("Delete", "Delete", "Experience", new { id = item.ExperienceId }, null)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+        </td>
+    </tr>
+</table>

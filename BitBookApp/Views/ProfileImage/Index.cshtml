@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BitBookApp.Models.ProfileImage>
+@*@model BitBookApp.Models.ProfileImage*@
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImageTypeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserImage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImageTypeId)
+        </td>
+        <td>
+            <img src="data:image;base64,@System.Convert.ToBase64String(item.UserImage)" width="200" height="200" />
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProfileImageId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProfileImageId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProfileImageId })
+        </td>
+    </tr>
+}
+
+</table>

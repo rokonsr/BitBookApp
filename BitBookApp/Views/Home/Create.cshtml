@@ -1,0 +1,48 @@
+﻿@using BitBookApp.Models
+@model BitBookApp.Models.Post
+
+@{
+    ViewBag.Title = "Create";
+    //Layout = "~/Views/Shared/_LayoutBb.cshtml";
+    Layout = null;
+
+    List<Post> posts = ViewBag.Post;
+}
+
+<br/>
+
+@using (Html.BeginForm("Create", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TextPost, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.TextPost, new { @cols = 450, @rows = 5 })
+                @Html.ValidationMessageFor(model => model.TextPost)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImagePost, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" id="image" name="image" />
+                @*@Html.EditorFor(model => model.ImagePost)*@
+                @Html.ValidationMessageFor(model => model.ImagePost)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Post" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

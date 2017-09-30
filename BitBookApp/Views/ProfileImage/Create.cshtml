@@ -1,0 +1,54 @@
+﻿@model BitBookApp.Models.ProfileImage
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutBb.cshtml";
+}
+
+@using (Html.BeginForm("Create", "ProfileImage", FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Add Picture</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImageTypeId, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.TextBoxFor(model => model.ImageTypeId, new { @class = "form-control"})*@
+                @Html.DropDownListFor(model => model.ImageTypeId, new List<SelectListItem>
+                {
+                    new SelectListItem{ Text="Cover Picture", Value = "1" },
+                    new SelectListItem{ Text="Profile Picture", Value = "2" }
+                    }, "--Select--", new { @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.ImageTypeId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserImage, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" id="image" name="image" />
+                @*@Html.EditorFor(model => model.Image)*@
+                @Html.ValidationMessageFor(model => model.UserImage)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", "Profile")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

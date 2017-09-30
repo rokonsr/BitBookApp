@@ -1,0 +1,51 @@
+﻿@model BitBookApp.Models.Experience
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Experience</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpDesignation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpCompany)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpCompany)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpYear)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ExperienceId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

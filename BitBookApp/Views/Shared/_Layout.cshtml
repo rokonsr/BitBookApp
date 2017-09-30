@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-9">
+
+            </div>
+
+            <div class="col-md-3">
+                @*@if (Session["UserId"] != null)
+                {
+                    <span>
+                        Hello @Session["Username"].ToString()
+                        @Html.ActionLink("Logout", "Logout", "Login", new { @Style = "color:White" }, null)
+                    </span>
+                }
+                else
+                {
+                    @Html.ActionLink("Login", "Index", "Login")
+                }*@
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

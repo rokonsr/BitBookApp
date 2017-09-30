@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .headertable table tr td {
+            padding: 10px;
+        }
+
+        .headerlink a {
+            font-weight: bold;color: white;
+        }
+
+        .headerlink a:hover {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid headerlink headertable">
+
+        <div class="row" style="background-color: #3F5C9A; color: white; height: 50px">
+            <div class="col-md-12">
+                <table style="width: 100%">
+                    <tr>
+                        <td style="width: 8%"></td>
+                        <td>
+                            <div class="searchBox">
+                                @using (@Html.BeginForm("SearchFreind", "Profile"))
+                                {
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <div id="imaginary_container">
+                                                    <div class="input-group stylish-input-group">
+                                                        <input type="text" id="searchFriend" name="searchFriend" placeholder="Search friend...." class="form-control">
+                                                        <span class="input-group-addon">
+                                                            <button type="submit" value="Search" style="height: 20px;">
+                                                                <span class="glyphicon glyphicon-search"></span>
+                                                            </button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                                    Settings
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("View Friend", "ViewFriend", "Profile")</li>
+                                    <li>@Html.ActionLink("Change Password", "Edit", "Registration")</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            @Html.ActionLink("Profile", "Index", "Profile") |
+                            @Html.ActionLink("Home", "Index", "Home")
+                        </td>
+                        <td>
+                            <label>
+                                <a href="/Profile/ViewFriendRequest">
+                                    <img id="friendRequest" class="friendRequest" src="~/Images/FriendRequest.jpg" style="width: 30px; height: 30px;" /> &nbsp;&nbsp;
+
+                                </a>
+                            </label>
+
+                            <label style="color: #ff0000">
+                                @if (@ViewBag.RequestCount != 0)
+                                {@ViewBag.RequestCount
+                                }
+                            </label>
+
+                            <label>
+                                <a href="/Profile/Notification">
+                                    <img id="notification" class="friendRequest" src="~/Images/NotificationLogo.jpg" style="width: 30px; height: 30px;" />
+                                </a>
+                            </label>
+
+                            <label style="color: #ff0000">
+                                @if (@ViewBag.NotificationCount != 0)
+                                {
+                                    @ViewBag.NotificationCount
+                                }
+                            </label>
+                        </td>
+                        <td>
+                            @if (Session["UserId"] != null)
+                            {
+                                <span>
+                                    Hello @Session["Username"].ToString()
+                                    @Html.ActionLink("Logout", "Logout", "Login", new { @Style = "color:White" }, null)
+                                </span>
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Login", "Index", "Login")
+                            }
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

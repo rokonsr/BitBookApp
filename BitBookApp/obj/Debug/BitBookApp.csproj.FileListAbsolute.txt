@@ -1,0 +1,186 @@
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\WebGrease.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+F:\Rokon\06-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\WebGrease.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.UpdateProfile.resources
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csproj.GenerateResource.Cache
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+F:\Rokon\08-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.AddEducationAndExperience.resources
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\WebGrease.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.CreateDatabase.resources
+F:\Rokon\11-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csproj.GenerateResource.Cache
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\WebGrease.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\EntityFramework.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.CreateDatabase.resources
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.Post.resources
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csproj.GenerateResource.Cache
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+F:\Rokon\13-06-2017\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+D:\Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+D:\Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+D:\Training\Projects\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\EntityFramework.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\WebGrease.dll
+D:\Training\Projects\BitBookApp\BitBookApp\bin\EntityFramework.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+D:\Training\Projects\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.CreateDatabase.resources
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.Post.resources
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.UpdateLike.resources
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.AddLikeModel.resources
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csproj.GenerateResource.Cache
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.AddComment.resources
+D:\Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\Antlr3.Runtime.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\EntityFramework.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\Microsoft.Web.Infrastructure.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Optimization.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\WebGrease.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\EntityFramework.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Optimization.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Deployment.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\System.Web.WebPages.Razor.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+D:\BITM Training\Projects\BitBookApp\BitBookApp\bin\Antlr3.Runtime.pdb
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.CreateDatabase.resources
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.Post.resources
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.UpdateLike.resources
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.AddLikeModel.resources
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.Migrations.AddComment.resources
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csproj.GenerateResource.Cache
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+D:\BITM Training\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb

@@ -1,0 +1,149 @@
+﻿@using BitBookApp.Models
+@model IEnumerable<BitBookApp.Models.Post>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutBb.cshtml";
+    List<UserProfile> userProfiles = ViewBag.Profile;
+    List<Friend> friends = ViewBag.Friend;
+    List<Like> likes = ViewBag.TotalLike;
+    List<Comment> comments = ViewBag.Comment;
+}
+
+@{
+    Html.RenderAction("Create", "Home");
+}
+
+<div style="margin-left: 150px;">
+    <table>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td colspan="3"><hr style="border-color: green;"/></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">
+                    @foreach (var itemp in userProfiles)
+                    {
+                        if (item.UserId == itemp.UserId)
+                        {
+                            @Html.ActionLink(@itemp.Name, "ProfileView", "Profile", new { id = item.UserId }, null)
+                        }
+                    }
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <span>Date :</span> @Html.DisplayFor(modelItem => item.PostDate)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @if (item.TextPost != null)
+                                {
+                                    @Html.DisplayFor(modelItem => item.TextPost)
+                                }
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @if (item.ImagePost != null)
+                                {
+                                    <img src="data:image;base64,@System.Convert.ToBase64String(item.ImagePost)" width="200" height="200" style="border-radius: 5px;" />
+                                }
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="vertical-align: top">
+                    @Html.ActionLink("Edit", "Edit", "Home", new { id = item.PostId }, null) ||
+                    @Html.ActionLink("Remove", "Delete", "Home", new { id = item.PostId }, null)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button data-id="@item.PostId" type="button" class="likeButton btn btn-primary btn-xs" style="background-color: #5979D2; cursor: pointer; overflow: hidden; width: 45px" value="">Liked</button>
+
+                    @foreach (var likeCounter in likes)
+                    {
+                        if (likeCounter.PostId == item.PostId)
+                        {
+                            @Html.ActionLink("" + @likeCounter.Status+ "", "BrowseLikers", "Home", new { postId = item.PostId }, null)
+                            @*<a href="/Home/BrowseLikers/@item.PostId"><label id="@item.PostId" class="likeLabel">@likeCounter.Status</label></a>*@
+                            break;
+                        }
+                    }
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="background-color: #F5F5F5">
+                    @foreach (var cmt in comments)
+                    {
+
+                        foreach (var v in userProfiles)
+                        {
+
+                            if (cmt.PostId == @item.PostId && cmt.UserId == v.UserId)
+                            {
+
+                                @Html.ActionLink(v.Name, "ProfileView", "Profile", new {id = cmt.UserId}, null)
+                                <label style="font-weight: normal">&nbsp;@cmt.UserComment</label>
+                                <br/>
+                            }
+                        }
+                    }
+
+
+
+
+                    @using (@Html.BeginForm("CreateComment", "Home", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="postId" name="postId" value="@item.PostId"/>
+                        <input type="hidden" id="userId" name="userId" value="@item.UserId"/>
+                        <textarea id="comment" name="userComment"></textarea>
+                        <input type="submit" value="Comment"/>
+                    }
+                </td>
+                <td></td>
+            </tr>
+        }
+    </table>
+</div>
+
+
+@section scripts
+{
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>*@
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.likeButton').click(function () {
+                $(this).val("Liked");
+                var value = $(this).attr("data-id");
+                $.ajax
+                ({
+                    type: 'POST',
+                    url: '@Url.Action("CreateLike", "Home")',
+                    //data: "{'postIdString':'" + JSON.stringify(obj) + "'}",
+                    data: "{'postId':'" + value + "'}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data1) {
+                        document.getElementById(value).innerHTML = data1;
+
+                    }
+                });
+            });
+        })
+
+    </script>
+}
